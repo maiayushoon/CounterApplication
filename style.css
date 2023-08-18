@@ -1,0 +1,84 @@
+body {
+    background: #dd7737;
+    background: linear-gradient(90deg, rgba(221, 119, 55, 1) 27%, rgba(239, 239, 239, 1) 43%, rgba(255, 255, 255, 1) 57%, rgba(0, 255, 46, 1) 73%);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 250px auto;
+    max-width: 500px;
+    box-shadow: 5px 4px 3px 2px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.container-card h1 {
+    color: #333;
+    text-decoration: underline;
+    margin-bottom: 36px;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.counter-display{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(209, 200, 35);
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 13px rgb(57, 116, 255);
+}
+
+.button-container{
+    margin-bottom: 20px;
+
+}
+
+button{
+    padding: 10px 20px;
+    background-color:blue;
+    color:rgb(209, 200, 35);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 10px;
+    width: 70px;
+    font-size: large;
+    font-weight: bold;
+    text-align:center ;
+
+}
+
+#resetBtn{
+    text-align: center;
+    box-sizing: content-box;
+    background-color: red;
+    margin-top: 15px;
+
+}
+
+#resetBtn:hover{
+    background-color: rgb(120, 14, 14);
+    transform: rotate(1turn);
+    }
+    
+
+.blueBtn{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.blueBtn:hover{
+    transform: scaleY(.8) rotate(-6deg);
+    background-color: rgb(20, 20, 108);
+}
